@@ -1,0 +1,45 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="com.parameters">
+
+<test name="whiteboxqa test">
+<parameter name="browser" value="chrome"/>
+<parameter name="url" value="http://www.whiteboxqa.com/login.php"/>
+<parameter name="emailid" value="maddiralakaveri@gmail.com"/>
+
+<classes>
+
+<class name="com.parameters.ParameterTest"/>
+
+</classes>
+</test>
+
+
+</suite>
+
+
+
+
+
+
+
+<!--  
+<suite name="TestNGDemo.TNGDemo">
+
+<test name="Different testng feature test">
+
+<classes>
+
+<class name="TestNGDemo.TNGDemo.ExceptionTimeOutTest"/>
+<class name="TestNGDemo.TNGDemo.GoogleTest"/>
+<class name="TestNGDemo.TNGDemo.GoogleTitleTest"/>
+<class name="TestNGDemo.TNGDemo.InvocationCountTest"/>
+<class name="TestNGDemo.TNGDemo.TestNGBasics"/>
+<class name="TestNGDemo.TNGDemo.TestNGFeatures"/>
+
+</classes>
+
+</test>  
+</suite>
+-->
+
